@@ -11,7 +11,7 @@ use Discord\Builders\Components\Button;
 use Discord\Interaction;
 
 $discord = new Discord([
-    'token' => 'OTgyNjM4NTEyNDg4NzIyNDUy.GHNIB0.6AduxojwvD2ac5irPkPoCjfpYNffjzx6_n856s',
+    'token' => 'SEU_TOKEN',
 ]);
 
 $discord->on('ready', function (Discord $discord) {
